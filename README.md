@@ -43,3 +43,15 @@ pip install pipenv
 ```
 pipenv install
 ```
+
+## Run dependencies services
+
+```
+docker-compose up -d
+```
+
+## Run server
+
+```
+pipenv run python relay_v1.py
+```
