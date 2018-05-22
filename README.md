@@ -5,4 +5,4 @@ Hệ thống của một doanh nghiệp cần cảnh báo về tình trạng c�
 
 Mô hình triển khai
 
-<img src="https://prnt.sc/jkyby3">
+<img src="Telegram_Relay_bot/download.png">
