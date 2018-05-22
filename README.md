@@ -6,3 +6,18 @@ Hệ thống của một doanh nghiệp cần cảnh báo về tình trạng c�
 Mô hình triển khai
 
 <img src="https://raw.githubusercontent.com/khanhnnvn/Telegram_Relay_bot/master/download.png">
+
+Yêu cầu triển khai:
+
+- Python, Flask
+- Redis Server
+
+Chạy chương trình:
+
+python relayv1.py
+
+Thêm IP được phép kết nối tới Webservice
+
+vim trusted_ip
+
+URL Webservice: http://localhost:5000/sendMsg
