@@ -5,4 +5,4 @@ Hệ thống của một doanh nghiệp cần cảnh báo về tình trạng c�
 
 Mô hình triển khai
 
-<img src="Telegram_Relay_bot/download.png">
+<img src="https://raw.githubusercontent.com/khanhnnvn/Telegram_Relay_bot/master/download.png">
