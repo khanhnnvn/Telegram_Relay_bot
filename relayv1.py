@@ -32,7 +32,7 @@ app = Flask(__name__)
 bot = telegram.Bot(token='573653147:AAGK7lM9NG1AW4mFE9Gngj2PKvw_PArITPc')
 
 # Redis zone
-redis_db = redis.StrictRedis(host="localhost", port=6379, db=4, password="pass321*")
+redis_db = redis.StrictRedis(host="localhost", port=6379, db=4, password="thichthide")
 granted_ip = ""
 
 
