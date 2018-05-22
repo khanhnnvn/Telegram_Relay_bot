@@ -35,12 +35,12 @@ bot = telegram.Bot(token)
 REDIS_HOST = os.environ.get('REDIS_HOST', 'localhost')
 try:
     REDIS_PORT = int(os.environ.get('REDIS_PORT'))
-except ValueError:
+except (ValueError, TypeError):
     REDIS_PORT = 6379
 
 try:
     REDIS_DB = int(os.environ.get('REDIS_DB'))
-except ValueError:
+except (ValueError, TypeError):
     REDIS_DB = 4
 
 REDIS_PASSWORD = os.environ.get('REDIS_PASSWORD')
