@@ -1,5 +1,0 @@
-flask
-telegram
-redis
-request
-json
