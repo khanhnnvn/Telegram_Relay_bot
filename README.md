@@ -21,3 +21,8 @@ Thêm IP được phép kết nối tới Webservice
 vim trusted_ip
 
 URL Webservice: http://localhost:5000/sendMsg
+
+Dữ liệu demo dùng postman
+
+
+<img src="https://raw.githubusercontent.com/khanhnnvn/Telegram_Relay_bot/master/Screenshot_1.png">
