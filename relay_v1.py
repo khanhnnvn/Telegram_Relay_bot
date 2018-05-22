@@ -25,10 +25,12 @@ logger.addHandler(ch)
 
 
 app = Flask(__name__)
-bot = telegram.Bot(token=os.environ.get(
+
+token = os.environ.get(
     'TELEGRAM_TOKEN',
     '573653147:AAGK7lM9NG1AW4mFE9Gngj2PKvw_PArITPc'
-))
+)
+bot = telegram.Bot(token)
 
 REDIS_HOST = os.environ.get('REDIS_HOST', 'localhost')
 try:

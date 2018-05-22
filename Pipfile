@@ -12,5 +12,5 @@ name = "pypi"
 [packages]
 
 flask = "==1.0.2"
-telegram = "==0.0.1"
+python-telegram-bot = "==v10.1.0"
 redis = "==2.10.6"
